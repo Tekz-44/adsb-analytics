@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Secrets and config
+config/config.yaml
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files
+data/raw/
+
+# Mac junk
+.DS_Store
