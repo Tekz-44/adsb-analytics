@@ -1,6 +1,11 @@
+branca==0.8.2
 certifi==2026.5.20
 charset-normalizer==3.4.7
+folium==0.20.0
 idna==3.18
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+numpy==2.4.6
 psycopg2-binary==2.9.12
 python-dotenv==1.2.2
 PyYAML==6.0.3
@@ -9,3 +14,4 @@ schedule==1.2.2
 SQLAlchemy==2.0.50
 typing_extensions==4.15.0
 urllib3==2.7.0
+xyzservices==2026.3.0
