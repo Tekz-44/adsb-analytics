@@ -40,7 +40,8 @@ def fetch_features():
           AND baro_altitude IS NOT NULL
           AND velocity IS NOT NULL
           AND vertical_rate IS NOT NULL
-          AND true_track IS NOT NULL;
+          AND true_track IS NOT NULL
+          AND baro_altitude < 13000;
     """
     conn = get_db_connection()
     df = pd.read_sql(query, conn)
